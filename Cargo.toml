@@ -1,0 +1,13 @@
+[package]
+name = "native_api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+native_api_1c = "0.10.2"
+utf16_lit = "2.0.2"
+
+[lib] 
+crate-type = ["cdylib"]
